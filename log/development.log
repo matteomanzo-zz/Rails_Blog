@@ -2672,3 +2672,30 @@ Processing by ArticlesController#index as HTML
   [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"
   Rendered articles/index.html.erb within layouts/application (1.7ms)
 Completed 200 OK in 153ms (Views: 152.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles/new" for ::1 at 2015-02-16 16:05:32 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#new as HTML
+Filter chain halted as #<Proc:0x007f923b4c66a0@/Users/Mimmo/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.0/lib/action_controller/metal/http_authentication.rb:71> rendered or redirected
+Completed 401 Unauthorized in 26ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for ::1 at 2015-02-16 16:05:39 +0000
+Processing by ArticlesController#new as HTML
+Filter chain halted as #<Proc:0x007f923b4c66a0@/Users/Mimmo/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.0/lib/action_controller/metal/http_authentication.rb:71> rendered or redirected
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for ::1 at 2015-02-16 16:05:51 +0000
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.erb (94.3ms)
+  Rendered articles/new.html.erb within layouts/application (115.2ms)
+Completed 200 OK in 540ms (Views: 481.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/articles" for ::1 at 2015-02-16 16:05:53 +0000
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"
+  Rendered articles/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 111ms (Views: 110.1ms | ActiveRecord: 0.2ms)
