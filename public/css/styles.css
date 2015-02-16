@@ -1,0 +1,39 @@
+body {
+	margin: 0 auto;
+	padding: 0 auto;
+	background-color: #96281B;
+}
+
+h1 {
+	color: #DCC6E0;
+}
+
+#yield {
+	height: 100%;
+
+}
+
+#homepage {
+	width: 85%;
+	margin: 0 auto;
+}
+
+#homepage-container {
+	text-align: center;
+}
+
+#myname {
+	border-bottom: 1px solid black;
+}
+
+#blog-button {
+	border-radius: 44%;
+	text-decoration: none;
+}
+
+#left {
+	float: left;
+	width: 7.5%;
+	height: 100%;
+	background-color: #22313F;
+}
