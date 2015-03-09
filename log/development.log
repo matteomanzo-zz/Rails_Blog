@@ -5787,3 +5787,581 @@ Started GET "/assets/comments-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::
 
 
 Started GET "/assets/application-3602cadbcb413bdfcfbb93e84761bd53.js?body=1" for ::1 at 2015-02-16 19:45:47 +0000
+
+
+Started GET "/" for ::1 at 2015-02-17 08:58:28 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 417ms (Views: 377.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/comments-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-17 08:58:29 +0000
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-17 08:58:29 +0000
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-02-17 08:58:29 +0000
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-17 08:58:29 +0000
+
+
+Started GET "/assets/articles-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-17 08:58:29 +0000
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-17 08:58:29 +0000
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-17 08:58:29 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-17 08:58:29 +0000
+
+
+Started GET "/assets/articles-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-17 08:58:29 +0000
+
+
+Started GET "/assets/application-3602cadbcb413bdfcfbb93e84761bd53.js?body=1" for ::1 at 2015-02-17 08:58:29 +0000
+
+
+Started GET "/assets/comments-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-17 08:58:29 +0000
+
+
+Started GET "/articles" for ::1 at 2015-02-17 08:59:13 +0000
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (14.1ms)[0m  SELECT "articles".* FROM "articles"
+  Rendered articles/index.html.erb within layouts/application (22.4ms)
+Completed 200 OK in 249ms (Views: 203.3ms | ActiveRecord: 14.6ms)
+
+
+Started GET "/articles" for ::1 at 2015-02-17 08:59:56 +0000
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.3ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 118ms (Views: 116.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-02-17 19:16:08 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 433ms (Views: 406.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-17 19:16:09 +0000
+
+
+Started GET "/assets/comments-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-17 19:16:09 +0000
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-17 19:16:09 +0000
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-17 19:16:09 +0000
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-17 19:16:09 +0000
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-02-17 19:16:09 +0000
+
+
+Started GET "/assets/application-3602cadbcb413bdfcfbb93e84761bd53.js?body=1" for ::1 at 2015-02-17 19:16:09 +0000
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-17 19:16:09 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-17 19:16:09 +0000
+
+
+Started GET "/assets/comments-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-17 19:16:09 +0000
+
+
+Started GET "/assets/articles-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-17 19:16:09 +0000
+
+
+Started GET "/" for ::1 at 2015-02-17 19:19:10 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (14.7ms)
+Completed 500 Internal Server Error in 20ms
+
+ActionView::Template::Error (No route matches {:action=>"index", :controller=>"{:class=>\"blog-link\"}"}):
+    4:   <section id='homepage-container'>
+    5:     <h1>Hello, Rails</h1>
+    6: 
+    7:   <button id='blog-button'><%= link_to 'Blog', controller: 'articles', controller: {class: 'blog-link'} %></button>
+    8:   </section>
+    9: </section>
+   10: <section id='right'>a</section>
+  app/views/welcome/index.html.erb:7:in `_app_views_welcome_index_html_erb__1907088127729934815_70244678079180'
+
+
+  Rendered /Users/Mimmo/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (13.7ms)
+  Rendered /Users/Mimmo/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (5.9ms)
+  Rendered /Users/Mimmo/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/Mimmo/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.7ms)
+  Rendered /Users/Mimmo/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (79.6ms)
+
+
+Started GET "/" for ::1 at 2015-02-17 19:19:31 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 6ms
+
+SyntaxError (/Users/Mimmo/Projects/rails_blog/app/views/welcome/index.html.erb:7: syntax error, unexpected ')', expecting =>
+...ticles', {class: 'blog-link'} );@output_buffer.safe_append='...
+...                               ^
+/Users/Mimmo/Projects/rails_blog/app/views/welcome/index.html.erb:11: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/Mimmo/Projects/rails_blog/app/views/welcome/index.html.erb:13: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/welcome/index.html.erb:7: syntax error, unexpected ')', expecting =>
+  app/views/welcome/index.html.erb:11: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/welcome/index.html.erb:13: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /Users/Mimmo/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (13.6ms)
+  Rendered /Users/Mimmo/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (6.2ms)
+  Rendered /Users/Mimmo/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/Mimmo/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.5ms)
+  Rendered /Users/Mimmo/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (44.5ms)
+
+
+Started GET "/" for ::1 at 2015-02-17 19:19:41 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (5.0ms)
+Completed 500 Internal Server Error in 10ms
+
+SyntaxError (/Users/Mimmo/Projects/rails_blog/app/views/welcome/index.html.erb:7: syntax error, unexpected '{', expecting ')'
+...Blog', controller: 'articles' {class: 'blog-link'} );@output...
+...                               ^
+/Users/Mimmo/Projects/rails_blog/app/views/welcome/index.html.erb:7: syntax error, unexpected '}', expecting ')'
+...'articles' {class: 'blog-link'} );@output_buffer.safe_append...
+...                               ^
+/Users/Mimmo/Projects/rails_blog/app/views/welcome/index.html.erb:11: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/Mimmo/Projects/rails_blog/app/views/welcome/index.html.erb:13: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/welcome/index.html.erb:7: syntax error, unexpected '{', expecting ')'
+  app/views/welcome/index.html.erb:7: syntax error, unexpected '}', expecting ')'
+  app/views/welcome/index.html.erb:11: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/welcome/index.html.erb:13: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /Users/Mimmo/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (14.0ms)
+  Rendered /Users/Mimmo/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (5.9ms)
+  Rendered /Users/Mimmo/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/Mimmo/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.6ms)
+  Rendered /Users/Mimmo/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (48.4ms)
+
+
+Started GET "/" for ::1 at 2015-02-17 19:45:37 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 117ms (Views: 116.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-17 19:45:38 +0000
+
+
+Started GET "/assets/articles-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-17 19:45:38 +0000
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-17 19:45:38 +0000
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-17 19:45:38 +0000
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-02-17 19:45:38 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-17 19:45:38 +0000
+
+
+Started GET "/assets/comments-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-17 19:45:38 +0000
+
+
+Started GET "/assets/articles-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-17 19:45:38 +0000
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-17 19:45:38 +0000
+
+
+Started GET "/assets/comments-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-17 19:45:38 +0000
+
+
+Started GET "/assets/application-3602cadbcb413bdfcfbb93e84761bd53.js?body=1" for ::1 at 2015-02-17 19:45:38 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-17 19:45:38 +0000
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-17 19:45:38 +0000
+
+
+Started GET "/assets/articles-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-17 19:45:38 +0000
+
+
+Started GET "/assets/comments-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-17 19:45:38 +0000
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-17 19:45:38 +0000
+
+
+Started GET "/assets/application-3602cadbcb413bdfcfbb93e84761bd53.js?body=1" for ::1 at 2015-02-17 19:45:38 +0000
+
+
+Started GET "/" for ::1 at 2015-02-17 19:46:09 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 125ms (Views: 124.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-17 19:46:09 +0000
+
+
+Started GET "/assets/comments-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-17 19:46:09 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-17 19:46:09 +0000
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-17 19:46:09 +0000
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-17 19:46:09 +0000
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-02-17 19:46:09 +0000
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-17 19:46:09 +0000
+
+
+Started GET "/assets/articles-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-17 19:46:09 +0000
+
+
+Started GET "/assets/comments-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-17 19:46:09 +0000
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-17 19:46:09 +0000
+
+
+Started GET "/assets/application-3602cadbcb413bdfcfbb93e84761bd53.js?body=1" for ::1 at 2015-02-17 19:46:09 +0000
+
+
+Started GET "/" for ::1 at 2015-02-17 19:46:10 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 118ms (Views: 117.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-17 19:46:10 +0000
+
+
+Started GET "/assets/articles-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-17 19:46:10 +0000
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-02-17 19:46:10 +0000
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-17 19:46:10 +0000
+
+
+Started GET "/assets/comments-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-17 19:46:10 +0000
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-17 19:46:10 +0000
+
+
+Started GET "/assets/articles-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-17 19:46:10 +0000
+
+
+Started GET "/assets/comments-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-17 19:46:10 +0000
+
+
+Started GET "/assets/application-3602cadbcb413bdfcfbb93e84761bd53.js?body=1" for ::1 at 2015-02-17 19:46:10 +0000
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-17 19:46:10 +0000
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-17 19:46:10 +0000
+
+
+Started GET "/" for ::1 at 2015-02-17 19:46:32 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 112ms (Views: 111.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-17 19:46:33 +0000
+
+
+Started GET "/assets/comments-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-17 19:46:33 +0000
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-02-17 19:46:33 +0000
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-17 19:46:33 +0000
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-17 19:46:33 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-17 19:46:33 +0000
+
+
+Started GET "/assets/articles-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-17 19:46:33 +0000
+
+
+Started GET "/assets/comments-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-17 19:46:33 +0000
+
+
+Started GET "/assets/application-3602cadbcb413bdfcfbb93e84761bd53.js?body=1" for ::1 at 2015-02-17 19:46:33 +0000
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-17 19:46:33 +0000
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-17 19:46:33 +0000
+
+
+Started GET "/" for ::1 at 2015-02-17 19:46:33 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 132ms (Views: 131.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-17 19:46:34 +0000
+
+
+Started GET "/assets/comments-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-17 19:46:34 +0000
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-17 19:46:34 +0000
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-02-17 19:46:34 +0000
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-17 19:46:34 +0000
+
+
+Started GET "/assets/articles-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-17 19:46:34 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-17 19:46:34 +0000
+
+
+Started GET "/assets/comments-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-17 19:46:34 +0000
+
+
+Started GET "/" for ::1 at 2015-02-17 19:46:34 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 183ms (Views: 182.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-17 19:46:34 +0000
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-17 19:46:34 +0000
+
+
+Started GET "/assets/application-3602cadbcb413bdfcfbb93e84761bd53.js?body=1" for ::1 at 2015-02-17 19:46:34 +0000
+
+
+Started GET "/" for ::1 at 2015-02-17 19:46:34 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 158ms (Views: 157.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-17 19:46:34 +0000
+
+
+Started GET "/assets/comments-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-17 19:46:34 +0000
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-02-17 19:46:34 +0000
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-17 19:46:34 +0000
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-17 19:46:34 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-17 19:46:34 +0000
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-17 19:46:34 +0000
+
+
+Started GET "/assets/articles-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-17 19:46:34 +0000
+
+
+Started GET "/assets/comments-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-17 19:46:34 +0000
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-17 19:46:34 +0000
+
+
+Started GET "/assets/application-3602cadbcb413bdfcfbb93e84761bd53.js?body=1" for ::1 at 2015-02-17 19:46:34 +0000
+
+
+Started GET "/" for ::1 at 2015-02-17 19:46:34 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 209ms (Views: 208.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-17 19:46:35 +0000
+
+
+Started GET "/assets/comments-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-17 19:46:35 +0000
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-17 19:46:35 +0000
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-02-17 19:46:35 +0000
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-17 19:46:35 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-17 19:46:35 +0000
+
+
+Started GET "/assets/articles-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-17 19:46:35 +0000
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-17 19:46:35 +0000
+
+
+Started GET "/assets/comments-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-17 19:46:35 +0000
+
+
+Started GET "/assets/application-3602cadbcb413bdfcfbb93e84761bd53.js?body=1" for ::1 at 2015-02-17 19:46:35 +0000
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-17 19:46:35 +0000
+
+
+Started GET "/" for ::1 at 2015-02-17 19:47:18 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.6ms)
+Completed 500 Internal Server Error in 9ms
+
+SyntaxError (/Users/Mimmo/Projects/rails_blog/app/views/welcome/index.html.erb:7: syntax error, unexpected ')', expecting =>
+...ptions = {class: "blog-link"} );@output_buffer.safe_append='...
+...                               ^
+/Users/Mimmo/Projects/rails_blog/app/views/welcome/index.html.erb:11: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/Mimmo/Projects/rails_blog/app/views/welcome/index.html.erb:13: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/welcome/index.html.erb:7: syntax error, unexpected ')', expecting =>
+  app/views/welcome/index.html.erb:11: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/welcome/index.html.erb:13: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /Users/Mimmo/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (15.2ms)
+  Rendered /Users/Mimmo/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (5.0ms)
+  Rendered /Users/Mimmo/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /Users/Mimmo/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.6ms)
+  Rendered /Users/Mimmo/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (66.1ms)
+
+
+Started GET "/" for ::1 at 2015-02-17 19:47:53 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 143ms (Views: 142.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/comments-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-17 19:47:54 +0000
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-17 19:47:54 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-17 19:47:54 +0000
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-02-17 19:47:54 +0000
+
+
+Started GET "/assets/articles-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-17 19:47:54 +0000
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-17 19:47:54 +0000
+
+
+Started GET "/assets/articles-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-17 19:47:54 +0000
+
+
+Started GET "/assets/comments-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-17 19:47:54 +0000
+
+
+Started GET "/assets/application-3602cadbcb413bdfcfbb93e84761bd53.js?body=1" for ::1 at 2015-02-17 19:47:54 +0000
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-17 19:47:54 +0000
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-17 19:47:54 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-17 19:47:54 +0000
+
+
+Started GET "/articles?class=blog-link" for ::1 at 2015-02-17 19:47:56 +0000
+Processing by ArticlesController#index as HTML
+  Parameters: {"class"=>"blog-link"}
+  [1m[35mArticle Load (12.4ms)[0m  SELECT "articles".* FROM "articles"
+  Rendered articles/index.html.erb within layouts/application (22.4ms)
+Completed 200 OK in 319ms (Views: 162.3ms | ActiveRecord: 13.0ms)
+
+
+Started GET "/" for ::1 at 2015-02-17 19:48:54 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 6ms
+
+SyntaxError (/Users/Mimmo/Projects/rails_blog/app/views/welcome/index.html.erb:7: syntax error, unexpected ')', expecting =>
+...les', { :class=>"blog-link" } );@output_buffer.safe_append='...
+...                               ^
+/Users/Mimmo/Projects/rails_blog/app/views/welcome/index.html.erb:11: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/Mimmo/Projects/rails_blog/app/views/welcome/index.html.erb:13: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/welcome/index.html.erb:7: syntax error, unexpected ')', expecting =>
+  app/views/welcome/index.html.erb:11: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/welcome/index.html.erb:13: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /Users/Mimmo/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (18.2ms)
+  Rendered /Users/Mimmo/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (6.2ms)
+  Rendered /Users/Mimmo/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/Mimmo/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.4ms)
+  Rendered /Users/Mimmo/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (58.3ms)
+
+
+Started GET "/" for ::1 at 2015-02-17 19:49:33 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (15.1ms)
+Completed 500 Internal Server Error in 22ms
+
+SyntaxError (/Users/Mimmo/Projects/rails_blog/app/views/welcome/index.html.erb:7: syntax error, unexpected ')', expecting =>
+...s', { :class => "blog-link" } );@output_buffer.safe_append='...
+...                               ^
+/Users/Mimmo/Projects/rails_blog/app/views/welcome/index.html.erb:11: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/Mimmo/Projects/rails_blog/app/views/welcome/index.html.erb:13: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/welcome/index.html.erb:7: syntax error, unexpected ')', expecting =>
+  app/views/welcome/index.html.erb:11: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/welcome/index.html.erb:13: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /Users/Mimmo/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (12.4ms)
+  Rendered /Users/Mimmo/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (4.9ms)
+  Rendered /Users/Mimmo/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/Mimmo/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.7ms)
+  Rendered /Users/Mimmo/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (43.3ms)

@@ -1,42 +1,22 @@
-Title
-=======================
+#Rails Blog
 
-## Synopsis
+## What is it?
 
-TODO: Enter a description of your project here.
+This app is a simple blog created using Rails, following [this](http://guides.rubyonrails.org/getting_started.html) tutorial.
 
 ![NAME_OF_IMAGE](http://ENTER_URL)
 
 ## Technologies Used
 
-- LANGUAGE_ONE
-- LANGUAGE_TWO
-- FRAMEWORK
-- TESTING SUITES
+- Ruby on Rails
+- HTML & CSS
+- Sqlite3
 
-## Job List
+## Still to complete
 
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-
-## Favourite Code Snippet
-
-~~~
- TODO: paste code here
-~~~
-
-## Collaborators
-
-- NAME_ONE (http://www.github.com/USERNAME)
-- NAME_TWO (http://www.github.com/USERNAME)
-
-## Still to complete/refactor
-
-- [ ]
-- [ ]
+- [ ] CSS
 
 ## Takeaway
 
-TODO: Enter a personal reflection and/or things you learnt
+As this is my first app that I'm creating using Rails, I wasn't use to the "Convention over Configuration".
+It is also very interesting the MVC pattern.
